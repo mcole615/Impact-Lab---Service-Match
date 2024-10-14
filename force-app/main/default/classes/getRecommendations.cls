@@ -60,6 +60,7 @@ public with sharing class getRecommendations {
       SR.TodaysHours = null;
       SR.MailingStreet = service.Street__c;
       SR.MailingCity = service.City__c;
+      SR.MailingState = service.State__c;
       SR.Website = service.Website__c;
       SR.ServicePhone = service.Phone__c;
       SR.ServiceTags = service.Service_Tags__c;

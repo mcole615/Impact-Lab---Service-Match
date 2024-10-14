@@ -94,7 +94,7 @@
                 showResult.push(res[i]);
                 marker.location.Street = res[i].MailingStreet;
                 marker.location.City = res[i].MailingCity;
-                marker.location.State = 'CA';
+                marker.location.State = res[i].MailingState;
                 marker.title = res[i].ProgramName;
                 mapMarkers.push(marker);
               }

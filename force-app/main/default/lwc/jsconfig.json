@@ -29,12 +29,16 @@
             ],
             "c/starRating": [
                 "starRating/starRating.js"
+            ],
+            "c/*": [
+                "*"
             ]
         }
     },
     "include": [
         "**/*",
-        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+        "../../../../.sfdx/typings/lwc/**/*.d.ts",
+        "../../../../../.sfdx/typings/lwc/**/*.d.ts"
     ],
     "typeAcquisition": {
         "include": [

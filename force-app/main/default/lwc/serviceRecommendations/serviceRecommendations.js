@@ -91,7 +91,7 @@ export default class ServiceRecommendations extends LightningElement {
 
                       marker.location.Street = result[i].MailingStreet;
                       marker.location.City = result[i].MailingCity;
-                      marker.location.State = 'CA';
+                      marker.location.State = result[i].MailingState;
                       marker.title = result[i].ProgramName;
                       marker.description = result[i].ProgramDescription;
                       this.mapMarkers.push(marker);
